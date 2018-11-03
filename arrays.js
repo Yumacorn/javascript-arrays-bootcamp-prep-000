@@ -25,7 +25,8 @@ var tomatoSauceIngredients = [
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 function addElementToBeginningOfArray(array, element){
-  arrayModded = array.unshift(element)
+  arrayModded = array
+  arrayModded = arrayModded.unshift(element)
   return arrayModded
 }
 
