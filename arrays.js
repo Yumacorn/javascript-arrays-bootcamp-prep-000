@@ -53,7 +53,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 
 var cats = ["Milo", "Garfield", "Otis", "Rog", "Fi"]
 
-cats = cats.slice(3,0) // ["Garfield", "Otis"]
+cats = cats.slice(3,1) // ["Garfield", "Otis"]
 console.log(cats)
 cats // ["Milo", "Garfield", "Otis"]
 //function destructivelyRemoveElementFromBeginningOfArray(array) {
