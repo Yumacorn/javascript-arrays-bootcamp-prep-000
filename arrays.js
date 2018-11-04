@@ -26,7 +26,7 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 var arrayStart = new Array();
 function addElementToBeginningOfArray(array, element){
-    return array2 = ["element", ...array]
+    return array2 = [element, ...array]
 }
 
 addElementToBeginningOfArray(arrayStart, "lettuce")
