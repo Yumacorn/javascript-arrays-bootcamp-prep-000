@@ -36,3 +36,10 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   console.log(array)
   return array
 }
+
+function addElementToEndOfArray () {
+
+}
+function destructivelyAddElementToEndOfArray () {
+
+}
