@@ -52,5 +52,3 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 //function destructivelyRemoveElementFromBeginningOfArray(array) {
-
-}
