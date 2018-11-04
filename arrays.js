@@ -32,5 +32,6 @@ function addElementToBeginningOfArray(array, element){
 //addElementToBeginningOfArray(arrayStart, "lettuce")
 //console.log(array2)
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return array.unshift(element)
+  array.unshift(element)
+  return array
 }
