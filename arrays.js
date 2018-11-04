@@ -58,5 +58,5 @@ console.log(cats)
 cats // ["Milo", "Garfield", "Otis"]
 
 function removeElementFromBeginningOfArray(array) {
-  array.slice()
+  array.slice(1)
 }
