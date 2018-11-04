@@ -33,5 +33,5 @@ destructivelyAddElementToBeginningOfArray(array, "lettuce")
 console.log(array)
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element)
-  return array = [element, ...array]
+  return array
 }
