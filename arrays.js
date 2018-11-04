@@ -54,7 +54,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 var cats = ["Milo", "Garfield", "Otis", "Rog", "Fi"]
 
 cats = cats.slice(3,4) // ["Garfield", "Otis"]
-console.log(cats)
+console.log(cats.pop())
 cats // ["Milo", "Garfield", "Otis"]
 
 function removeElementFromBeginningOfArray(array) {
