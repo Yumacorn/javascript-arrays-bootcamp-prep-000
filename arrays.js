@@ -59,5 +59,5 @@ cats // ["Milo", "Garfield", "Otis"]
 
 function removeElementFromBeginningOfArray(array) {
   array2 = array.slice(0)
-  return array
+  return array2
 }
