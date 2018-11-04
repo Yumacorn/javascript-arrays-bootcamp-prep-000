@@ -24,10 +24,12 @@ var tomatoSauceIngredients = [
 
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
+var arrayStart = [];
 function addElementToBeginningOfArray(array, element){
     return array2 = ["element", ...array]
 }
 
+addElementToBeginningOfArray(arrayStart, "lettuce")
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array = array.unshift(element)
   return array
